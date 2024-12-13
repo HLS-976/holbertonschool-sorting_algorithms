@@ -28,7 +28,7 @@ void insertion_sort_list(listint_t **list)
 			else
 			{
 				temp->prev = NULL;
-				*list = buff;
+				*list = temp;
 			}
 			if (temp->next)
 			{
